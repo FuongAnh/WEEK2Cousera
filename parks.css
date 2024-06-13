@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif; /* Default font family */
+    font-size: 16px; /* Default font size */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header tag */
+header {
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 10px;
+}
+
+/* Styling the nav tag */
+nav {
+    display: inline-block; /* Display as inline-block */
+    width: 80%; /* 80% width of its container */
+}
+
+nav img {
+    width: 10%; /* Set width of images inside nav */
+}
+
+/* Styling the main tag */
+main {
+    background-color: #e0e0e0; /* Lighter gray background color */
+    padding: 20px;
+    font-size: 1.1em; /* Larger font size */
+}
+
+/* Styling the footer tag */
+footer {
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 10px;
+}
+
+/* Commented out
+li {
+    display: inline-block;
+    width: 200px; / * Fixed width for list items * /
+}
+*/
+
+/* Styling the h1 tag */
+h1 {
+    text-align: center; /* Center align heading */
+    font-family: 'Arial Black', sans-serif; /* Custom font family */
+    color: #333; /* Dark gray font color */
+}
+
+/* Styling the p tag */
+p {
+    line-height: 1.6; /* Increased line height for readability */
+}
+
+/* Additional styling specific to parks.html */
+main div {
+    margin-top: 20px; /* Add some space above the image grid */
+    text-align: center; /* Center align images */
+}
+
+main div img {
+    margin: 10px; /* Add margin around each image */
+}
+
+/* Styling the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Two columns each 40% */
+    justify-content: space-between; /* Space evenly between columns */
+    align-items: center; /* Center align items vertically */
+    row-gap: 20px; /* Gap between rows */
+}
+
+.grid img {
+    width: 100%; /* Make images fill their grid containers */
+}
+
+/* Styling the flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next line if needed */
+    justify-content: space-between; /* Space evenly between items */
+}
